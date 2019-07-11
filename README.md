@@ -1,4 +1,4 @@
-# FileZillaConfigAnalyse
+# FileZillaConfigAnalyze
 A PowerShell-Script to export die Config File
 
 This script allows to analyze the Filezilla Sitemanager XML configuration file and shows the following Output:
