@@ -2,13 +2,14 @@
 A PowerShell-Script to export die Config File
 
 This script allows to analyze the Filezilla Sitemanager XML configuration file and shows the following Output:
-##############################
+
 Name     : FTPserver
 Host     : ftp.FTPserver.de
 Port     : 21
 Username : User
 Password : plaintextpassword
-##############################
+
+
 for each configured server in the Sitemanager xml file, where these information are stored.
 It also decrypts the stored password (Base64).
 
