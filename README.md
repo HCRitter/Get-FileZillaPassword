@@ -1,6 +1,8 @@
 # FileZillaConfigAnalyze
-A PowerShell-Script to export die Config File
+A PowerShell-Script to export the config file
 
+Output:
+-------
 This script allows to analyze the Filezilla Sitemanager XML configuration file and shows the following Output:
 
 
@@ -12,15 +14,21 @@ This script allows to analyze the Filezilla Sitemanager XML configuration file a
 
 
 for each configured server in the Sitemanager xml file, where these information are stored.
-It also decrypts the stored password (Base64).
 
+Description:
+------------
 At first there is a check if the Filezilla application in version 3.X is installed.
 If the Sitemanager.xml is not stored in the defaultpath [%Appdata%\Filezilla], the script will analyze the Filezilla configuration file 
-fzdefaults.xml. 
+fzdefaults.xml.
+
 This configuration file contains the alernative Sitemanager.xml path which is stored in the programmfiles directory.
+
 After passing all of the checks the script generates the output above.
 
+The script also decrypts the stored password (Base64).
+
 Next steps:
+-----------
 - Warp the whole script into a function
 - Write a detailed .SYNOPSIS
 
